@@ -1,0 +1,128 @@
+body{
+    display: flexbox;
+    margin: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    margin: 0px;
+    width: 100%;
+    align-content: center;
+}
+
+header h1{
+    text-align: left;
+    color: black;
+    font-size: medium;
+    padding: 15px;
+}
+
+section{
+    margin: 80px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+}
+
+section div{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+.login{
+    display: grid;
+    align-content: center;
+    margin: auto;
+    padding: 10px;
+}
+
+.login input{
+    margin: 10px;
+    padding: 25px 25px;
+    text-align: left;
+    font-size: 15px;
+    border-radius: 55px;
+    border-style: hidden;
+    color:rgb(0, 0, 0);
+    background-color: rgb(240, 240, 240);
+}
+
+.login button{
+    margin: 15px;
+    padding: 20px 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 55px;
+    border-style: hidden;
+    background-color: rgb(255, 114, 32);
+    color: snow;
+}
+
+div h2{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: Georgia;
+    padding: 35px;
+}
+
+.outros{
+    text-align: right;
+    margin: auto;
+    padding-right: 20px;
+    text-decoration: underline;
+    color: rgb(7, 34, 155);
+}
+
+.outros :hover{
+    color: rgb(53, 52, 52);
+}
+
+.alternative-login{
+    display: grid;
+    align-content: center;
+    padding: 10px;
+}
+
+
+.alternative-login h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.alternative-login button{
+    align-content: center;
+    text-align: center;
+    margin: 5px;
+    padding: 10px 25px;
+    font-size: 20px;
+    border-radius: 55px;
+    border-width: 0.25px;
+    border-style: solid;
+    border-color: rgb(156, 151, 151);
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.alternative-login img{
+    text-align: justify;
+    width: 20px;
+}
+
+
+footer{
+    background-color: white;
+    position: flex;
+    bottom:0;
+    margin: 0px;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+
